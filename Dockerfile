@@ -29,7 +29,8 @@ RUN mkdir /opt/shiny/etc \
 ################################################
 
 #FROM gcr.io/distroless/base-debian13:debug-nonroot
-FROM gcr.io/distroless/cc-debian13:debug-nonroot
+#FROM gcr.io/distroless/cc-debian13:debug-nonroot
+FROM gcr.io/distroless/cc-debian13:nonroot
 #FROM gcr.io/distroless/base-debian13:nonroot
 LABEL developer="rosswilson-nz" \
       maintainer="wimg"
